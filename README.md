@@ -4,6 +4,7 @@ Boilerplate for simple C++ projects in vscode. Main features are:
   - Makefile
   - VsCode files (to automatically compile, run, debug, etc)
   - Clang-Format file (coding guidelines plz)
+  - License (MIT)
 
 Remember to modify information in Makefile and .vscode/launch.json with files particular to the project in question.
 
@@ -21,7 +22,7 @@ git commit -m "First commit"
 
 This creates a local repository, now to connect it to github:
 
-Create github reposity in github.com and then:
+Create github repo in github.com and then:
 
 ```bash
 git remote add origin #insert git URL here
