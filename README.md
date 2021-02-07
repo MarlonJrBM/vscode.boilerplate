@@ -28,3 +28,14 @@ git remote add origin #insert git URL here
 git push -u origin master
 ```
 
+## How to sync with repository (upstream)
+
+```bash
+git fetch
+git merge origin/master
+```
+
+Or more simply:
+```bash
+git pull origin master
+```
