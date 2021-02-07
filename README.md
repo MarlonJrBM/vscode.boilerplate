@@ -15,8 +15,8 @@ Remember to modify information in Makefile and .vscode/launch.json with files pa
 ```bash
 git init
 # Copy boilerplate and write some files
-git add # insert all your files here
-git commit
+git add .
+git commit -m "First commit"
 ```
 
 This creates a local repository, now to connect it to github:
